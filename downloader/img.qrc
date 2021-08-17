@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>earth-add.png</file>
+        <file>earth-add_hover.png</file>
+        <file>button-pause-1.png</file>
+        <file>button-next.png</file>
+        <file>common-file-text-search.png</file>
+        <file>navigation-menu-3-alternate.png</file>
+        <file>app-window-download.png</file>
+        <file>folder-download.png</file>
+    </qresource>
+</RCC>

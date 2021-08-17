@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/qqimg">
+        <file>qqimg/110512151485383.png</file>
+        <file>qqimg/110512151485384.png</file>
+        <file>qqimg/110512151485385.png</file>
+        <file>qqimg/110512151485386.png</file>
+        <file>qqimg/110512151485387.png</file>
+        <file>qqimg/110512151485388.png</file>
+        <file>qqimg/110512151485389.png</file>
+        <file>qqimg/1105121514853810.png</file>
+        <file>qqimg/qq.png</file>
+    </qresource>
+</RCC>

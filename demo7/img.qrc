@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>qq.png</file>
+        <file>house-2-alternate.png</file>
+    </qresource>
+</RCC>

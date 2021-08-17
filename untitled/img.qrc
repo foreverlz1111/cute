@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>ethernet.ico</file>
+        <file>website.ico</file>
+        <file>browser.ico</file>
+        <file>codingbrowser.ico</file>
+    </qresource>
+</RCC>

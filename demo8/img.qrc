@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>calculater.png</file>
+        <file>network-phone.png</file>
+        <file>network-question.png</file>
+        <file>network-subtract.png</file>
+        <file>network-sync.png</file>
+        <file>navigation-menu.png</file>
+        <file>keyboard-delete-alternate.png</file>
+        <file>keyboard-delete.png</file>
+    </qresource>
+</RCC>
