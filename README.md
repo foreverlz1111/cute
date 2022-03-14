@@ -1,4 +1,4 @@
-**文件夹目录对应功能实现**
+# 文件夹目录对应功能
 
 > demo1 ————简单的按键槽与窗口信息的传递
 > 
@@ -23,8 +23,24 @@
 > untitled ————Windows环境下：QProcess（）调用CMD进行ping和tracert、调用多线程并发执行函数、QNetworkAccessManager（）调用互联网API查询信息进行显示、QAxObject（）打开word、excel文件并读取各行各列的内容
 > 
 >https://github.com/foreverlz1111/CuTe
+# 编译运行后发现输入框无法输入中文（Linux平台）
+`原因：安装qt的时候缺少输入法库`
 
+方法一：从系统与编译好的qt库中提取（系统编译版本需要和自己安装的qt版本一致）
+- 查看系统编译好的输入法库：
 
+```
+cd /usr/lib/x86_64-linux-gnu/qt5/plugins/platforminputcontexts
+```
 
+- 将库复制到qt安装目录下（手动修改路径）：
 
+```
+cp *.so /home/{你的系统用户名}/Qt/5.15.2/gcc_64/plugins/platforminputcontexts
+```
+
+方法二：根据官方(编译源码)[https://github.com/qt/qt5]
+```
+从生成文件中找到库文件 /plugins/platforminputcontexts，然后参照方法一复制到安装目录
+```
    
