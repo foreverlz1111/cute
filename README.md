@@ -39,7 +39,7 @@ cd /usr/lib/x86_64-linux-gnu/qt5/plugins/platforminputcontexts
 cp *.so /home/{你的系统用户名}/Qt/5.15.2/gcc_64/plugins/platforminputcontexts
 ```
 
-方法二：根据官方(编译源码)[https://github.com/qt/qt5]
+方法二：根据官方[编译源码](https://github.com/qt/qt5)
 ```
 从生成文件中找到库文件 /plugins/platforminputcontexts，然后参照方法一复制到安装目录
 ```
